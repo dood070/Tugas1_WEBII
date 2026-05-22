@@ -4,7 +4,6 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
@@ -12,6 +11,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/admin/users">users</a>
+                </li>
+                <li class="nav-item">
+                     <a class="nav-link" href="/admin/products">Products</a>
                 </li>
             </ul>
         </div>

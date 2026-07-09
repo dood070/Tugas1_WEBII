@@ -14,6 +14,7 @@ return new class extends Migration
             $table->string('nama_barang', 150);
             $table->string('satuan', 30);
             $table->decimal('harga', 15, 2);
+            $table->integer('stok')->default(0);
             $table->timestamps();
         });
     }
